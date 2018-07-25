@@ -1,0 +1,10 @@
+Cloning a repository to your system??
+-git clone URL
+
+-fc command to compare two files in command prompt
+
+-git checkout to go to the previous version of the code but remember the commit id of the latest commit
+
+-git diff commit id's saperated by sapce to find difference between them and what changes have been made
+
+-pwd to give path of the current directory

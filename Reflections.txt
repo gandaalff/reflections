@@ -1,0 +1,4 @@
+How did viewing a diff between two versions help you spot the bug??
+
+~ Instead of going through the whole file only differences were shown
+~ Hence saves a lot of time

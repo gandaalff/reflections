@@ -1,10 +1,25 @@
-Cloning a repository to your system??
--git clone URL
+Compare two commits, printing each line that is present in one commit but not the other.
+-git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+-git clone will do this. It takes one argument - the url of the repository to copy. 
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+-git checkout will do this. It takes one argument - the commit ID to restore. 
+
+Show the commits made in this repository, starting with the most recent.
+-git log
+
+-pwd to give path of the current directory
 
 -fc command to compare two files in command prompt
 
--git checkout to go to the previous version of the code but remember the commit id of the latest commit
+-git init (initializes a new git repository)
+need to initialize beacuse git does store any commits unless we create them
 
--git diff commit id's saperated by sapce to find difference between them and what changes have been made
+-git status to check status of commits
 
--pwd to give path of the current directory
+-git reset If you accidentally add a file to the staging area, you can remove it using -git reset
+
+-git add name of file to be entered to the repository
+ enters that file to the repository
